@@ -76,7 +76,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">About Sortify</h2>
             <p className="text-gray-600 mb-6">
-              Sortify is designed to make file organization effortless. Whether you're dealing with downloads, documents, or media files,
+              Sortify is designed to make file organization effortless. Whether you&apos;re dealing with downloads, documents, or media files,
               Sortify helps you maintain a clean and organized file system.
             </p>
             <div className="grid md:grid-cols-2 gap-8 mt-12">

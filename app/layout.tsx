@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,20 +22,20 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex items-center">
-                <a href="/" className="text-2xl font-bold text-indigo-600">Sortify</a>
+                <Link href="/" className="text-2xl font-bold text-indigo-600">Sortify</Link>
               </div>
               <div className="hidden sm:flex sm:items-center sm:space-x-8">
-                <a href="/#features" className="text-gray-700 hover:text-indigo-600 transition-colors">Features</a>
-                <a href="/#download" className="text-gray-700 hover:text-indigo-600 transition-colors">Download</a>
-                <a href="/#about" className="text-gray-700 hover:text-indigo-600 transition-colors">About</a>
-                <a 
+                <Link href="/#features" className="text-gray-700 hover:text-indigo-600 transition-colors">Features</Link>
+                <Link href="/#download" className="text-gray-700 hover:text-indigo-600 transition-colors">Download</Link>
+                <Link href="/#about" className="text-gray-700 hover:text-indigo-600 transition-colors">About</Link>
+                <Link 
                   href="https://github.com/yourusername/sortify" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-gray-700 hover:text-indigo-600 transition-colors"
                 >
                   GitHub
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -52,15 +53,15 @@ export default function RootLayout({
               <div>
                 <h3 className="text-xl font-bold mb-4">Links</h3>
                 <ul className="space-y-2">
-                  <li><a href="/#features" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
-                  <li><a href="/#download" className="text-gray-400 hover:text-white transition-colors">Download</a></li>
-                  <li><a href="/#about" className="text-gray-400 hover:text-white transition-colors">About</a></li>
+                  <li><Link href="/#features" className="text-gray-400 hover:text-white transition-colors">Features</Link></li>
+                  <li><Link href="/#download" className="text-gray-400 hover:text-white transition-colors">Download</Link></li>
+                  <li><Link href="/#about" className="text-gray-400 hover:text-white transition-colors">About</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-4">Connect</h3>
                 <ul className="space-y-2">
-                  <li><a href="https://github.com/yourusername/sortify" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">GitHub</a></li>
+                  <li><Link href="https://github.com/yourusername/sortify" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">GitHub</Link></li>
                 </ul>
               </div>
             </div>
