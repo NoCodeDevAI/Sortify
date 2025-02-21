@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,12 +15,12 @@ export default function Home() {
               A smart file organizer that automatically sorts files into categorized folders. Simple, fast, and efficient.
             </p>
             <div className="flex justify-center gap-4">
-              <a href="#download" className="bg-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors">
+              <Link href="#download" className="bg-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors">
                 Download Now
-              </a>
-              <a href="#features" className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-medium border border-indigo-600 hover:bg-indigo-50 transition-colors">
+              </Link>
+              <Link href="#features" className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-medium border border-indigo-600 hover:bg-indigo-50 transition-colors">
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -55,7 +56,7 @@ export default function Home() {
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Download Sortify</h2>
             <p className="text-xl text-gray-600 mb-8">Available for Windows. Simple installation, no configuration needed.</p>
-            <a 
+            <Link 
               href="/downloads/Sortify.exe" 
               className="inline-flex items-center bg-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors"
               download
@@ -64,7 +65,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
               Download for Windows
-            </a>
+            </Link>
             <p className="mt-4 text-sm text-gray-500">Version 1.0.0 | Portable Executable</p>
           </div>
         </div>
