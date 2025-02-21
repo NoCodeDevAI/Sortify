@@ -6,8 +6,8 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Sortify - Smart File Organization',
-  description: 'Sortify – A smart file organizer that automatically sorts files into categorized folders. Supports normal and advanced organization with custom rules for better file management.',
+  title: 'Sortify by NoCodeDevAI - Smart File Organization',
+  description: 'Sortify by NoCodeDevAI – A smart file organizer that automatically sorts files into categorized folders. Supports normal and advanced organization with custom rules for better file management.',
 }
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex items-center">
-                <Link href="/" className="text-2xl font-bold text-indigo-600">Sortify</Link>
+                <Link href="/" className="text-2xl font-bold text-indigo-600">Sortify by NoCodeDevAI</Link>
               </div>
               <div className="hidden sm:flex sm:items-center sm:space-x-8">
                 <Link href="/#features" className="text-gray-700 hover:text-indigo-600 transition-colors">Features</Link>
@@ -47,7 +47,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4">Sortify</h3>
+                <h3 className="text-xl font-bold mb-4">NoCodeDevAI</h3>
                 <p className="text-gray-400">Smart file organization made simple.</p>
               </div>
               <div>
@@ -66,7 +66,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-              <p>© {new Date().getFullYear()} Sortify. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} NoCodeDevAI. All rights reserved.</p>
             </div>
           </div>
         </footer>

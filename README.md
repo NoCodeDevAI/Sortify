@@ -1,8 +1,12 @@
-# Sortify - Smart File Organization
+# Sortify by NoCodeDevAI - Smart File Organization
 
-A modern web application for intelligent file organization and management. Sortify helps you maintain a clean and organized file system effortlessly.
+A modern web application for intelligent file organization and management, created by NoCodeDevAI. Sortify helps you maintain a clean and organized file system effortlessly.
 
 🔗 [View Live Demo](https://sortify-azure.vercel.app/)
+
+## About NoCodeDevAI
+
+NoCodeDevAI specializes in creating intelligent automation tools that make file management and organization accessible to everyone, regardless of their technical expertise.
 
 ## Features
 
@@ -80,4 +84,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
-Built with ❤️ using Next.js and deployed on Vercel
+Created by NoCodeDevAI with ❤️ using Next.js and deployed on Vercel
