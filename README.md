@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sortify - Smart File Organization
+
+A modern web application for intelligent file organization and management. Sortify helps you maintain a clean and organized file system effortlessly.
+
+🔗 [View Live Demo](https://sortify-azure.vercel.app/)
+
+## Features
+
+- **Normal Mode** - Quick and simple organization by file types
+- **Advanced Mode** - Detailed categorization with subcategories
+- **Smart Detection** - Automatic file type detection and categorization
+- **User-Friendly Interface** - Clean, modern, and responsive design
+- **Portable** - No installation needed
+
+## Tech Stack
+
+- Next.js 13+
+- TypeScript
+- Tailwind CSS
+- Vercel (Deployment)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 16.8.0 or newer
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/sortify-website.git
+cd sortify-website
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/               # Next.js app directory
+├── public/           # Static files
+│   └── downloads/    # Downloadable files
+├── components/       # React components
+└── styles/          # CSS styles
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The project is deployed on Vercel. View the live site at: [https://sortify-azure.vercel.app/](https://sortify-azure.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To deploy your own version:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork this repository
+2. Create a new project on [Vercel](https://vercel.com)
+3. Connect your forked repository
+4. Deploy!
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+Built with ❤️ using Next.js and deployed on Vercel
