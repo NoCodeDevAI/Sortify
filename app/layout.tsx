@@ -90,7 +90,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-gray-900 text-white py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-4 gap-8">
               <div>
                 <h3 className="text-xl font-bold mb-4">NoCodeDevAI</h3>
                 <p className="text-gray-400 mb-4">Smart file organization made simple.</p>
@@ -107,6 +107,14 @@ export default function RootLayout({
                   <li><Link href="/#features" className="text-gray-400 hover:text-white transition-colors">Features</Link></li>
                   <li><Link href="/#download" className="text-gray-400 hover:text-white transition-colors">Download</Link></li>
                   <li><Link href="/#about" className="text-gray-400 hover:text-white transition-colors">About</Link></li>
+                  <li><Link href="/requirements" className="text-gray-400 hover:text-white transition-colors">System Requirements</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-4">Legal</h3>
+                <ul className="space-y-2">
+                  <li><Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+                  <li><Link href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
                 </ul>
               </div>
               <div>
