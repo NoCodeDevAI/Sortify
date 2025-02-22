@@ -8,6 +8,9 @@ export default function Home() {
       <section className="bg-gradient-to-b from-white to-gray-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <div className="flex justify-center mb-8">
+              <Image src="/assets/logo.png" alt="Sortify Logo" width={96} height={96} className="animate-bounce" />
+            </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
               Organize Your Files with <span className="text-indigo-600">Sortify</span>
             </h1>

@@ -2,12 +2,16 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sortify by NoCodeDevAI - Smart File Organization',
   description: 'Sortify by NoCodeDevAI – A smart file organizer that automatically sorts files into categorized folders. Supports normal and advanced organization with custom rules for better file management.',
+  icons: {
+    icon: '/assets/icon.png',
+  },
 }
 
 export default function RootLayout({
@@ -21,8 +25,9 @@ export default function RootLayout({
         <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
-              <div className="flex items-center">
-                <Link href="/" className="text-2xl font-bold text-indigo-600">Sortify by NoCodeDevAI</Link>
+              <div className="flex items-center gap-2">
+                <Image src="/assets/logo.png" alt="Sortify Logo" width={32} height={32} />
+                <Link href="/" className="text-2xl font-bold text-indigo-600">Sortify</Link>
               </div>
               <div className="hidden sm:flex sm:items-center sm:space-x-8">
                 <Link href="/#features" className="text-gray-700 hover:text-indigo-600 transition-colors">Features</Link>
