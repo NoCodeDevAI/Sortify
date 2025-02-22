@@ -46,7 +46,7 @@ export default function Home() {
               { icon: '/file.svg', title: 'Normal Mode', description: 'Quick and simple organization by file types like documents, images, videos, and more.' },
               { icon: '/window.svg', title: 'Advanced Mode', description: 'Detailed categorization with subcategories for more specific organization needs.' },
               { icon: '/globe.svg', title: 'Smart Detection', description: 'Automatically detects and categorizes files based on their types and extensions.' }
-            ].map((feature, index) => (
+            ].map((feature) => (
               <div 
                 key={feature.title}
                 className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
