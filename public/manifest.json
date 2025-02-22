@@ -1,0 +1,16 @@
+{
+  "name": "Sortify",
+  "short_name": "Sortify",
+  "description": "Smart file organizer that automatically sorts files into categorized folders",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
